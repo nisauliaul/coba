@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home"
+    tools:context=".ActivityHome">
+
+    <EditText
+        android:id="@+id/seacrh"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="623dp"
+        android:background="@drawable/edit_search"
+        android:drawableLeft="@drawable/search"
+        android:drawablePadding="10dp"
+        android:hint="Search"
+        android:paddingLeft="10dp"
+        android:textAlignment="gravity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="380dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="438dp"
+        android:background="@drawable/edit_menu"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/texthome"
+        android:layout_width="85dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/bpmn"
+        android:text="Panteen"
+        android:textColor="@color/fontcolor"
+        android:textalignment="left"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <TextView
+        android:id="@+id/saldo"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/bpmn"
+        android:text="Rp. 0"
+        android:textColor="@color/fontcolor"
+        android:textalignment="right"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <EditText
+        android:id="@+id/topup"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/topup"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:textAlignment="gravity"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <EditText
+        android:id="@+id/bayar"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/bayar"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:textAlignment="gravity"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <EditText
+        android:id="@+id/history"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/history"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:textAlignment="gravity"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <TextView
+        android:id="@+id/topup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bpmn"
+        android:text="Top Up"
+        android:textColor="@color/garis"
+        android:textSize="18sp"
+        android:textalignment="left"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <TextView
+        android:id="@+id/bayar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bpmn"
+        android:text="Bayar"
+        android:textColor="@color/garis"
+        android:textSize="18sp"
+        android:textalignment="left"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <TextView
+        android:id="@+id/history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bpmn"
+        android:text="Riwayat"
+        android:textColor="@color/garis"
+        android:textSize="18sp"
+        android:textalignment="left"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <TextView
+        android:id="@+id/history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bpmn"
+        android:text="Pesanan"
+        android:textColor="@color/garis"
+        android:textSize="18sp"
+        android:textalignment="left"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <ImageView
+        android:id="@+id/order"
+        android:layout_width="380dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="318dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="163dp"
+        android:background="@drawable/edit_order"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/makanan"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/order"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:textAlignment="gravity"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <TextView
+        android:id="@+id/makanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bpmn"
+        android:text="Order"
+        android:textColor="@color/garis"
+        android:textSize="18sp"
+        android:textalignment="left"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
